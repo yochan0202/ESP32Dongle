@@ -10,15 +10,15 @@ void setup() {
 
 void loop() {
   digitalWrite(ledPin, on); 
-  delay(100); //msec (1000msec=1sec)
+  delay(150); //msec (1000msec=1sec)
   digitalWrite(ledPin, off);
-  delay(100); //msec (1000msec=1sec)
+  delay(150); //msec (1000msec=1sec)
   digitalWrite(ledPin, on); 
-  delay(100); //msec (1000msec=1sec)
+  delay(150); //msec (1000msec=1sec)
   digitalWrite(ledPin, off);
-  delay(100); //msec (1000msec=1sec)
+  delay(200); //msec (1000msec=1sec)
   digitalWrite(ledPin, on); 
-  delay(1000); //msec (1000msec=1sec)
+  delay(1500); //msec (1000msec=1sec)
   digitalWrite(ledPin, off);
-  delay(1000); //msec (1000msec=1sec)
+  delay(2000); //msec (1000msec=1sec)
 }
